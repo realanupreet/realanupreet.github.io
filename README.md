@@ -5,6 +5,7 @@ My website :0
  
 - html🤶
 - css🧙‍♂️
+- js👨‍🔧
 - bootstrap💆‍♂️
 - bootstrap-icons👓
 - animejs🚀
