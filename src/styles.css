@@ -42,6 +42,14 @@ body {
 .proj-2 .img {
   background-image: url(./imgs/note-taking.webp);
 }
+
+.cproj-1 .img {
+  background-image: url(./imgs/gifs_stickers.webp);
+}
+.cproj-2 .img {
+  background-image: url(./imgs/fonts.webp);
+}
+
 .proj-3 .img {
   background-image: url(./imgs/bootstrap.webp);
 }

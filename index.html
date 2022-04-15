@@ -1,180 +1,306 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+      integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+      defer
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
 
-<head>
-	<meta charset="UTF-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-	 crossorigin="anonymous" />
-	<link rel="icon" type="image/svg+xml" href="favicon.svg" />
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-	 crossorigin="anonymous" defer>
+    <link rel="stylesheet" href="./src/styles.css" />
+    <script src="./src/index.js" defer></script>
+    <title>@realanupreet | portfolio</title>
+  </head>
 
-	</script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
-	 crossorigin="anonymous" referrerpolicy="no-referrer" defer>
-
-	</script>
-	<link rel="preconnect" href="https://fonts.googleapis.com" />
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-	<link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" />
-
-	<link rel="stylesheet" href="./src/styles.css" />
-	<script src="./src/index.js" defer>
-
-	</script>
-	<title>@realanupreet | portfolio</title>
-</head>
-
-<body>
-	<div class="nav-wrapper">
-		<ul class="phone-nav nav-active">
-			<li><a href="#projects">projects</a></li>
-			<li><a href="#skills">skills</a></li>
-			<li><a href="#contact-me">contact</a></li>
-			<!-- <li>
+  <body>
+    <div class="nav-wrapper">
+      <ul class="phone-nav nav-active">
+        <li><a href="#projects">projects</a></li>
+        <li><a href="#skills">skills</a></li>
+        <li><a href="#contact-me">contact</a></li>
+        <!-- <li>
 				<a href="#resume" class="text-decoration-underline">resume</a>
 			</li> -->
-		</ul>
-	</div>
-	<div class="container p-4">
-		<div class="mob-nav burger">
-			<div class="bar"></div>
-			<div class="bar"></div>
-		</div>
-		<header>
-			<div class="nav row gx-5">
-				<div class="buffer col"></div>
-				<nav class="col">
-					<ul class="desk-nav">
-						<li><a href="#projects">projects</a></li>
-						<li><a href="#skills">skills</a></li>
-						<li><a href="#contact-me">contact</a></li>
-						<!-- <li>
+      </ul>
+    </div>
+    <div class="container p-4">
+      <div class="mob-nav burger">
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </div>
+      <header>
+        <div class="nav row gx-5">
+          <div class="buffer col"></div>
+          <nav class="col">
+            <ul class="desk-nav">
+              <li><a href="#projects">projects</a></li>
+              <li><a href="#skills">skills</a></li>
+              <li><a href="#contact-me">contact</a></li>
+              <!-- <li>
 							<a href="#resume" class="text-decoration-underline">resume</a>
 						</li> -->
-					</ul>
-				</nav>
-			</div>
-			<div class="main">
-				<div class="hero row gx-5">
-					<div class="hero-text col">
-						<h4>A FRONT END DEVELOPER</h4>
-						<h1>Anupreet Singh</h1>
-						<svg class="below-hero" width="511" height="322" viewBox="0 0 511 322" fill="none" xmlns="http://www.w3.org/2000/svg">
-							<path class="below-hero-path" d="M52.0931 62.1428C81.0026 62.1428 79.655 104.573 52.0931 104.573C-17.3719 104.573 -14.6768 0.99999 52.0931 1C121.661 1.00001 395.025 130.793 473.891 130.793C521.667 130.793 522.404 59.997 473.891 59.997C425.377 59.997 204.372 197.657 134.296 197.657C64.2214 197.657 68.2642 122.927 134.296 130.793C200.329 138.66 359.955 227.92 401.121 217.322C436.768 208.145 421.945 167.026 396.34 167.026C370.736 167.026 306.789 176.68 263.666 208.145C220.543 239.61 207.677 317.797 263.666 320.895C316.746 323.832 299.313 264.044 263.666 277.631"
-							 stroke="#818DFF" stroke-opacity="1" />
-						</svg>
-					</div>
-					<div class="buffer col"></div>
-				</div>
-				<div class="short-right-text row gx-5">
-					<div class="buffer col"></div>
-					<p class="col">
-						A student. I focus on building(occasional designing) and developing, eye pleasing front end applications. i also absolutely
-						adore experimenting with layouts.
-					</p>
-				</div>
-			</div>
-		</header>
+            </ul>
+          </nav>
+        </div>
+        <div class="main">
+          <div class="hero row gx-5">
+            <div class="hero-text col">
+              <h4>A FRONT END DEVELOPER</h4>
+              <h1>Anupreet Singh</h1>
+              <svg
+                class="below-hero"
+                width="511"
+                height="322"
+                viewBox="0 0 511 322"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  class="below-hero-path"
+                  d="M52.0931 62.1428C81.0026 62.1428 79.655 104.573 52.0931 104.573C-17.3719 104.573 -14.6768 0.99999 52.0931 1C121.661 1.00001 395.025 130.793 473.891 130.793C521.667 130.793 522.404 59.997 473.891 59.997C425.377 59.997 204.372 197.657 134.296 197.657C64.2214 197.657 68.2642 122.927 134.296 130.793C200.329 138.66 359.955 227.92 401.121 217.322C436.768 208.145 421.945 167.026 396.34 167.026C370.736 167.026 306.789 176.68 263.666 208.145C220.543 239.61 207.677 317.797 263.666 320.895C316.746 323.832 299.313 264.044 263.666 277.631"
+                  stroke="#818DFF"
+                  stroke-opacity="1"
+                />
+              </svg>
+            </div>
+            <div class="buffer col"></div>
+          </div>
+          <div class="short-right-text row gx-5">
+            <div class="buffer col"></div>
+            <p class="col">
+              A student. I focus on building(occasional designing) and
+              developing, eye pleasing front end applications. i also absolutely
+              adore experimenting with layouts.
+            </p>
+          </div>
+        </div>
+      </header>
 
-		<section id="projects" class="big-sections">
-			<div class="section-heading row gx-5">
-				<div class="with-svg col">
-					<h2>Projects</h2>
-					<svg width="389" height="125" viewBox="0 0 389 125" fill="none" class="below-project" xmlns="http://www.w3.org/2000/svg">
-						<path class="below-projects" d="M39.8468 43.4912C61.8271 43.4912 60.8025 72.9778 39.8468 72.9778C-12.9685 72.9778 -10.9193 0.999993 39.8468 1C92.7402 1.00001 300.583 91.2 360.546 91.2C396.87 91.2 397.431 42 360.546 42C305.305 42 225.387 124 169.034 124"
-						 stroke="#818DFF" />
-					</svg>
-				</div>
+      <section id="projects" class="big-sections">
+        <div class="section-heading row gx-5">
+          <div class="with-svg col">
+            <h2>Projects</h2>
+            <svg
+              width="389"
+              height="125"
+              viewBox="0 0 389 125"
+              fill="none"
+              class="below-project"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="below-projects"
+                d="M39.8468 43.4912C61.8271 43.4912 60.8025 72.9778 39.8468 72.9778C-12.9685 72.9778 -10.9193 0.999993 39.8468 1C92.7402 1.00001 300.583 91.2 360.546 91.2C396.87 91.2 397.431 42 360.546 42C305.305 42 225.387 124 169.034 124"
+                stroke="#818DFF"
+              />
+            </svg>
+          </div>
 
-				<div class="buffer col"></div>
-			</div>
-			<!-- 
+          <div class="buffer col"></div>
+        </div>
+        <!-- 
 
         project 1
         
         -->
-			<section class="proj-1 proj row gx-5">
-				<div class="img col-sm m-0"></div>
-				<div class="desc col-sm m-0 p-4">
-					<div class="num">1st</div>
-					<div class="about-proj">
-						<h3>Portfolio website</h3>
-						<p class="short-description">
-							This website is also one of my recent projects.
-						</p>
-					</div>
-					<div class="links">
-						<a href="https://github.com/realanupreet/realanupreet.github.io/">code</a>
-						<a href="https://realanupreet.github.io/">visit</a>
-					</div>
-				</div>
-			</section>
-			<!-- 
+        <section class="proj-1 proj row gx-5">
+          <div class="img col-sm m-0"></div>
+          <div class="desc col-sm m-0 p-4">
+            <div class="num">1st</div>
+            <div class="about-proj">
+              <h3>Portfolio website</h3>
+              <p class="short-description">
+                This website is also one of my recent projects.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://github.com/realanupreet/realanupreet.github.io/"
+                >code</a
+              >
+              <a href="https://realanupreet.github.io/">visit</a>
+            </div>
+          </div>
+        </section>
+        <!-- 
 
         project 2
         
         -->
-			<section class="proj-2 proj row gx-5">
-				<div class="img col-sm m-0"></div>
-				<div class="desc col-sm m-0 p-4">
-					<div class="num">2nd</div>
-					<div class="about-proj">
-						<h3>Note taking app</h3>
-						<p class="short-description">
-							A nice and simple note taking app, can add notes by clicking the + icon and delete by double clicking them. It makes use
-							of local storage for storing your notes.
-						</p>
-					</div>
-					<div class="links">
-						<a href="https://github.com/realanupreet/deliciousNotes">code</a>
-						<a href="https://3feq4.csb.app/">visit</a>
-					</div>
-				</div>
-			</section>
-			<!-- 
+        <section class="proj-2 proj row gx-5">
+          <div class="img col-sm m-0"></div>
+          <div class="desc col-sm m-0 p-4">
+            <div class="num">2nd</div>
+            <div class="about-proj">
+              <h3>Note taking app</h3>
+              <p class="short-description">
+                A nice and simple note taking app, can add notes by clicking the
+                + icon and delete by double clicking them. It makes use of local
+                storage for storing your notes.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://github.com/realanupreet/deliciousNotes">code</a>
+              <a href="https://3feq4.csb.app/">visit</a>
+            </div>
+          </div>
+        </section>
+        <!-- 
 
         project 3
         
         -->
-			<section class="proj-3 proj row gx-5">
-				<div class="img col-sm m-0"></div>
-				<div class="desc col-sm m-0 p-4">
-					<div class="num">3rd</div>
-					<div class="about-proj">
-						<h3>Bootstrap</h3>
-						<p class="short-description">
-							A nice and simple website. In this self project, I focused mainly on making a complete ui of the website using bootstrap.
-						</p>
-					</div>
-					<div class="links">
-						<a href="https://github.com/realanupreet/bs5fun">code</a>
-						<a href="https://yfz8o.csb.app/">visit</a>
-					</div>
-				</div>
-			</section>
-		</section>
-		<section id="skills" class="big-sections mt-3">
-			<div class="section-heading row gx-5">
-				<div class="col">
-					<h2>Skills</h2>
-					<svg width="282" height="92" class="below-skill" viewBox="0 0 282 92" fill="none" xmlns="http://www.w3.org/2000/svg">
-						<path class="below-skills" d="M252.894 32.0911C236.991 32.0911 237.732 53.6667 252.894 53.6667C291.106 53.6667 289.624 0.999995 252.894 1C214.625 1.00001 64.2476 67 20.8635 67C-5.41789 67 -5.82365 31 20.8635 31C60.8307 31 118.653 91 159.425 91"
-						 stroke="#818DFF" />
-					</svg>
-				</div>
+        <section class="proj-3 proj row gx-5 mb-3">
+          <div class="img col-sm m-0"></div>
+          <div class="desc col-sm m-0 p-4">
+            <div class="num">3rd</div>
+            <div class="about-proj">
+              <h3>Bootstrap</h3>
+              <p class="short-description">
+                A nice and simple website. In this self project, I focused
+                mainly on making a complete ui of the website using bootstrap.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://github.com/realanupreet/bs5fun">code</a>
+              <a href="https://yfz8o.csb.app/">visit</a>
+            </div>
+          </div>
+        </section>
+      </section>
 
-				<div class="buffer col"></div>
-			</div>
+      <!-- 
+shit can happen here and im afraid editing a good looking site
+ -->
+      <section id="c-projects" class="big-sections mt-5">
+        <div class="section-heading row gx-5">
+          <div class="with-svg col">
+            <h2>Creative Projects</h2>
+            <svg
+              width="389"
+              height="125"
+              viewBox="0 0 389 125"
+              fill="none"
+              class="below-project"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="below-projects"
+                d="M39.8468 43.4912C61.8271 43.4912 60.8025 72.9778 39.8468 72.9778C-12.9685 72.9778 -10.9193 0.999993 39.8468 1C92.7402 1.00001 300.583 91.2 360.546 91.2C396.87 91.2 397.431 42 360.546 42C305.305 42 225.387 124 169.034 124"
+                stroke="#818DFF"
+              />
+            </svg>
+          </div>
 
-			<div class="short-right-text row gx-5">
-				<div class="buffer col"></div>
-				<p class="col">
-					I have a breif knowledege of
-					<strong class="key">html, css, bootstrap</strong> and
+          <div class="buffer col"></div>
+        </div>
+        <!-- 
+
+	project 1
+	
+	-->
+        <section class="cproj-1 proj row gx-5">
+          <div class="img col-sm m-0"></div>
+          <div class="desc col-sm m-0 p-4">
+            <div class="num">1st</div>
+            <div class="about-proj">
+              <h3>GIFs and Stickers</h3>
+              <p class="short-description">
+                I have made custom GIFs and Stickers for the giphy platform that
+                are being used by mainstream social media and collaboration
+                platforms. These have fetched over
+                <span
+                  style="border-bottom: 0.3em solid #818dff; display: inline;"
+                  >590K+</span
+                >
+                views on Giphy.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://giphy.com/realanupreet">visit</a>
+            </div>
+          </div>
+        </section>
+        <!-- 
+
+	project 2
+	
+	-->
+        <section class="cproj-2 proj row gx-5">
+          <div class="img col-sm m-0"></div>
+          <div class="desc col-sm m-0 p-4">
+            <div class="num">2nd</div>
+            <div class="about-proj">
+              <h3>Fonts</h3>
+              <p class="short-description">
+                I have designed several display fonts. They usually have a
+                grunge texture.
+              </p>
+            </div>
+            <div class="links">
+              <a href="https://rebrand.ly/myfonts">download</a>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <!-- beware -->
+
+      <section id="skills" class="big-sections mt-5">
+        <div class="section-heading row gx-5">
+          <div class="col">
+            <h2>Skills</h2>
+            <svg
+              width="282"
+              height="92"
+              class="below-skill"
+              viewBox="0 0 282 92"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                class="below-skills"
+                d="M252.894 32.0911C236.991 32.0911 237.732 53.6667 252.894 53.6667C291.106 53.6667 289.624 0.999995 252.894 1C214.625 1.00001 64.2476 67 20.8635 67C-5.41789 67 -5.82365 31 20.8635 31C60.8307 31 118.653 91 159.425 91"
+                stroke="#818DFF"
+              />
+            </svg>
+          </div>
+
+          <div class="buffer col"></div>
+        </div>
+
+        <div class="short-right-text row gx-5">
+          <div class="buffer col"></div>
+          <p class="col">
+            I have a breif knowledege of
+            <strong class="key">html, css, bootstrap</strong> and
             <strong>javascript</strong> . Also knows slight <em>php</em> . Apart
             from technical languages, i also love experimenting with design and
             have a breif knowledge of <em>adobe xd</em> and <em>figma</em> .
