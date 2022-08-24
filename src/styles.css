@@ -35,7 +35,9 @@ body {
   max-width: 960px;
   margin: 0 auto;
 }
-
+.rec .img{
+  background-image: url(./imgs/mask.webp);
+}
 .proj-1 .img {
   background-image: url(./imgs/portfolio.webp);
 }
