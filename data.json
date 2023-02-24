@@ -1,0 +1,51 @@
+{
+    "name": "Anupreet Singh",
+    "profession": "DEVELOPER 👩‍💻 x DESIGNER 🌼",
+    "introduction": "I am a student at the Amity University Uttar Pradesh 🎓, studying Computer Science🧪 & Engineering🔧. I focus on building(occasional designing) and developing, eye pleasing front end applications. i also absolutely adore experimenting with layouts.",
+    "skills": "I come with knowledge in web development and designing(adobe xd and figma). I've experience with various frameworks and not scared of learning new one. I like to keep my work simple and presented as a eye candy.",
+    "contact": "It would be my pleasure to have a nice chat. We could have a word over at my email <a href=\"mailto:anupreetsingh53@gmail.com\">anupreetsingh53@gmail.com</a> or you could fill out <a href=\"https://forms.gle/JbbTzxSK2W9h7zkP9\"> this form</a>. or alternatively over on my <a href=\"https://twitter.com/real_anupreet\">twitter</a>. :)",
+    "projects": [
+        {
+            "name": "Mask Detector",
+            "description": "A happy website for happy people to see if their happy faces are wearing a mask or not. Transfer learning based :)",
+            "code": "https://github.com/realanupreet/maskDetector",
+            "demo": "https://realanupreet.github.io/maskDetector/",
+            "image": "mask"
+        },
+        {
+            "name": "Portfolio website",
+            "description": "Inside Out: This website itself is the star!",
+            "code": "https://github.com/realanupreet/realanupreet.github.io/",
+            "demo": "https://realanupreet.github.io/",
+            "image": "portfolio"
+        },
+        {
+            "name": "Note taking app",
+            "description": "A nice and simple note taking app, can add notes by clicking the + icon and delete by double clicking them. It makes use of local storage for storing your notes.",
+            "code": "https://github.com/realanupreet/deliciousNotes",
+            "demo": "https://3feq4.csb.app/",
+            "image": "note-taking"
+        },
+        {
+            "name": "Bootstrap",
+            "description": "A nice and simple website. In this self project, I focused mainly on making a complete ui of the website using bootstrap.",
+            "code": "https://github.com/realanupreet/bs5fun",
+            "demo": "https://yfz8o.csb.app/",
+            "image": "bootstrap"
+        }
+    ],
+    "creative": [
+        {
+            "name": "GIFs and Stickers",
+            "description": " have made custom GIFs and Stickers for the giphy platform that are being used by mainstream social media and collaboration platforms. These have fetched over <span style=\"border-bottom: 0.3em solid #818dff; display: inline\">821K+</span> views on Giphy.",
+            "demo": "https://giphy.com/realanupreet",
+            "image": "gifs_stickers"
+        },
+        {
+            "name": "Fonts",
+            "description": "I have designed several display fonts. They usually have a grunge texture.",
+            "demo": "https://rebrand.ly/myfonts",
+            "image": "fonts"
+        }
+    ]
+}
