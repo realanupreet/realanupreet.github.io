@@ -108,8 +108,7 @@ a {
   transition: all 0.2s;
   border-bottom: 0.3em solid #818dff;
 }
-a:hover {
-}
+
 .nav,
 nav a,
 .nav-wrapper a {
